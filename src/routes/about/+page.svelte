@@ -1,12 +1,32 @@
+<div class="return-box">
+    <a href="/" class="return">Return</a>
+</div>
 <div id="menu">
     <div id="menu-items">
-    <h1 class="menu-text">Hi, I'm Kai.</h1>
-        <a href="/about" class="menu-item">Learn More?</a>
+        <h1 class="menu-text">Would you like to see</h1>
+        <a href="/professional" class="menu-item">professional stuff</a>
+        <h1 class="menu-text">or</h1>
+        <a href="/fun" class="menu-item">fun stuff?</a>
     </div>
 </div>
 
 
 <style>
+
+    .return-box {
+        margin-right: 0;
+        margin-left: auto;
+        display:flex;
+
+    }
+
+    .return {
+        color: white;
+        display: block;
+        margin-left: auto;
+        padding-top: clamp(1vw, 2vw, 4vw);
+        padding-right: clamp(1vw, 2vw, 4vw);
+    }
 
     #menu{
         height: 100vh;
@@ -14,18 +34,17 @@
         align-items: center;
     }
     .menu-text {
-        font-size: clamp(3rem, 9vw, 9rem);
+        font-size: clamp(2rem, 6vw, 6rem);
         color: white;
         font-family: "Ibarra Real Nova", serif;
 
         display: block;
         text-decoration: none;
-        padding: clamp(0.11rem, 0.5vw, 1rem) 0;
     }
 
     .menu-item:hover {
         background-position: -100%;
-       }
+    }
 
 
 
@@ -35,7 +54,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         transition: .7s ease-in-out;
-        font-size: clamp(1rem, 6vw, 6rem);
+        font-size: clamp(1rem, 4vw, 4rem);
         color: white;
 
         font-family: "Ibarra Real Nova", serif;
